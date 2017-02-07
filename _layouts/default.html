@@ -4,12 +4,86 @@
     <meta charset="{{ site.encoding }}">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta name="theme-color" content="#F44336">
+    <!-- MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-blue.min.css" />
+    <!-- END MDL -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <section class="page-header">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+      <div class="mdl-layout__drawer">
+        <p class="mdl-layout-title">Krystian Hanek</p>
+        <p class="mdl-layout-title mdl-layout-title__description">Programista Python/Django</p>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="#about">O mnie</a>
+          <a class="mdl-navigation__link" href="#experience">Doświadczenie</a>
+          <a class="mdl-navigation__link" href="#skills">Umiejętności</a>
+          <a class="mdl-navigation__link" href="#education">Edukacja</a>
+          <a class="mdl-navigation__link" href="#hobby">Hobby</a>
+          <a class="mdl-navigation__link" href="#contact">Kontakt</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <section id="about" class="bgnd js-parallax-bg">
+          <h1>O mnie</h1>
+        </section>
+        <div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat nec enim et feugiat. Curabitur eget erat eget dui lobortis consectetur vitae quis dolor. Pellentesque nec convallis eros. Vestibulum mollis dolor quis diam efficitur, et blandit tortor sollicitudin. Duis nisi nulla, interdum at purus eu, consequat semper mi. Vivamus vel lectus mi. Pellentesque bibendum risus a ligula mattis, at lacinia ligula ornare. Aenean tempor feugiat nunc, eget pretium diam congue vitae. Aliquam pretium dui urna, ut dignissim velit venenatis sed. Vivamus congue ligula odio, vitae tempor metus scelerisque non. Cras sem odio, porta sed tempor id, tempor in tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum et ligula a vestibulum. Curabitur vehicula nisl nulla, vel laoreet lectus tincidunt a. Maecenas volutpat ornare turpis, ac congue nulla dignissim eu.
+          </p>
+        </div>
+
+        <section id="experience" class="bgnd js-parallax-bg">
+          <h1>Doświadczenie</h1>
+        </section>
+        <div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat nec enim et feugiat. Curabitur eget erat eget dui lobortis consectetur vitae quis dolor. Pellentesque nec convallis eros. Vestibulum mollis dolor quis diam efficitur, et blandit tortor sollicitudin. Duis nisi nulla, interdum at purus eu, consequat semper mi. Vivamus vel lectus mi. Pellentesque bibendum risus a ligula mattis, at lacinia ligula ornare. Aenean tempor feugiat nunc, eget pretium diam congue vitae. Aliquam pretium dui urna, ut dignissim velit venenatis sed. Vivamus congue ligula odio, vitae tempor metus scelerisque non. Cras sem odio, porta sed tempor id, tempor in tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum et ligula a vestibulum. Curabitur vehicula nisl nulla, vel laoreet lectus tincidunt a. Maecenas volutpat ornare turpis, ac congue nulla dignissim eu.
+          </p>
+        </div>
+
+        <section id="skills" class="bgnd js-parallax-bg">
+          <h1>Umiejętności</h1>
+        </section>
+        <div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat nec enim et feugiat. Curabitur eget erat eget dui lobortis consectetur vitae quis dolor. Pellentesque nec convallis eros. Vestibulum mollis dolor quis diam efficitur, et blandit tortor sollicitudin. Duis nisi nulla, interdum at purus eu, consequat semper mi. Vivamus vel lectus mi. Pellentesque bibendum risus a ligula mattis, at lacinia ligula ornare. Aenean tempor feugiat nunc, eget pretium diam congue vitae. Aliquam pretium dui urna, ut dignissim velit venenatis sed. Vivamus congue ligula odio, vitae tempor metus scelerisque non. Cras sem odio, porta sed tempor id, tempor in tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum et ligula a vestibulum. Curabitur vehicula nisl nulla, vel laoreet lectus tincidunt a. Maecenas volutpat ornare turpis, ac congue nulla dignissim eu.
+          </p>
+        </div>
+
+        <section id="education" class="bgnd js-parallax-bg">
+          <h1>Edukacja</h1>
+        </section>
+        <div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat nec enim et feugiat. Curabitur eget erat eget dui lobortis consectetur vitae quis dolor. Pellentesque nec convallis eros. Vestibulum mollis dolor quis diam efficitur, et blandit tortor sollicitudin. Duis nisi nulla, interdum at purus eu, consequat semper mi. Vivamus vel lectus mi. Pellentesque bibendum risus a ligula mattis, at lacinia ligula ornare. Aenean tempor feugiat nunc, eget pretium diam congue vitae. Aliquam pretium dui urna, ut dignissim velit venenatis sed. Vivamus congue ligula odio, vitae tempor metus scelerisque non. Cras sem odio, porta sed tempor id, tempor in tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum et ligula a vestibulum. Curabitur vehicula nisl nulla, vel laoreet lectus tincidunt a. Maecenas volutpat ornare turpis, ac congue nulla dignissim eu.
+          </p>
+        </div>
+
+        <section id="hobby" class="bgnd js-parallax-bg">
+          <h1>Moje hobby</h1>
+        </section>
+        <div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat nec enim et feugiat. Curabitur eget erat eget dui lobortis consectetur vitae quis dolor. Pellentesque nec convallis eros. Vestibulum mollis dolor quis diam efficitur, et blandit tortor sollicitudin. Duis nisi nulla, interdum at purus eu, consequat semper mi. Vivamus vel lectus mi. Pellentesque bibendum risus a ligula mattis, at lacinia ligula ornare. Aenean tempor feugiat nunc, eget pretium diam congue vitae. Aliquam pretium dui urna, ut dignissim velit venenatis sed. Vivamus congue ligula odio, vitae tempor metus scelerisque non. Cras sem odio, porta sed tempor id, tempor in tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum et ligula a vestibulum. Curabitur vehicula nisl nulla, vel laoreet lectus tincidunt a. Maecenas volutpat ornare turpis, ac congue nulla dignissim eu.
+          </p>
+        </div>
+
+        <section id="contact" class="bgnd js-parallax-bg">
+          <h1>Kontakt</h1>
+        </section>
+        <div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat nec enim et feugiat. Curabitur eget erat eget dui lobortis consectetur vitae quis dolor. Pellentesque nec convallis eros. Vestibulum mollis dolor quis diam efficitur, et blandit tortor sollicitudin. Duis nisi nulla, interdum at purus eu, consequat semper mi. Vivamus vel lectus mi. Pellentesque bibendum risus a ligula mattis, at lacinia ligula ornare. Aenean tempor feugiat nunc, eget pretium diam congue vitae. Aliquam pretium dui urna, ut dignissim velit venenatis sed. Vivamus congue ligula odio, vitae tempor metus scelerisque non. Cras sem odio, porta sed tempor id, tempor in tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum et ligula a vestibulum. Curabitur vehicula nisl nulla, vel laoreet lectus tincidunt a. Maecenas volutpat ornare turpis, ac congue nulla dignissim eu.
+          </p>
+        </div>
+      </main>
+    </div>
+
+
+    <!-- <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
     </section>
@@ -23,7 +97,13 @@
         {% endif %}
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
       </footer>
-    </section>
+    </section> -->
+
+    <!-- MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- END MDL -->
+    <script src="/assets/js/gator.min.js"></script>
+    <script src="{{ '/assets/js/parallax.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
     {% if site.google_analytics %}
       <script type="text/javascript">

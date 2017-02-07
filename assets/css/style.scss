@@ -1,4 +1,45 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+@import "parallax";
+
+body {
+  background: #333;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+
+
+main {
+  min-height: 100vh;
+}
+
+.mdl-layout {
+  &__drawer {
+    .mdl-layout-title {
+      margin-bottom: 0;
+
+      &__description {
+        font-size: 1em;
+        line-height: 2em;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+main {
+  section {
+    h1 {
+      text-align: center;
+    }
+  }
+}

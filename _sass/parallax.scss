@@ -1,0 +1,48 @@
+.bgnd {
+    display: flex;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    max-height: 1200px;
+    min-height: 200px;
+
+    h1 {
+      max-width: 1024;
+      max-height: 768px;
+      margin: auto;
+      text-shadow: 0 0 5px #333;
+      color: white;
+    }
+
+    & + div {
+      background: white;
+      padding: 5em;
+      min-height: 46vh;
+    }
+}
+
+#about {
+    background-image: url(../images/zopfli_me.png);
+}
+
+#experience {
+    background-image: url(../images/zopfli_experience.png);
+}
+
+#skills {
+    background-image: url(../images/zopfli_skills.png);
+}
+
+#education {
+    background-image: url(../images/zopfli_education.png);
+}
+
+#hobby {
+    background-image: url(../images/zopfli_hobby.png);
+}
+
+#contact {
+    background-image: url(../images/zopfli_contact.png);
+}
